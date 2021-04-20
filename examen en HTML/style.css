@@ -1,0 +1,34 @@
+h1{
+	text-align: center;
+	border-bottom: solid;
+	border-color: teal
+}
+.dia{
+
+	display: flex;
+	position: relative;
+	width: 2000px;
+	float: left;
+	animation: fotor 15s infinite;
+}
+@keyframes fotor {
+	0%{
+		left: 0px;
+	}
+	50%
+	{
+		left: -1000px;
+	}
+	100%
+	    {left: 0px;}
+  }
+p {
+	font-size: 20px;
+	font-weight:bold;
+}
+#bye {
+	font-size: 20px;
+	border: solid teal;
+	text-decoration-style:arial;
+	text-align: center;
+}

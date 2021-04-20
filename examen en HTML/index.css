@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+ h1{
+ 	text-align: center;
+ 	color: #926239;
+ 	border-bottom: solid 5px;
+}
+
+.navbar
+{
+	height: 50px;;
+	display:flex;
+	align-items:center;
+}
+.aa {
+	color: white;
+	text-decoration: none;
+}
+nav{
+	text-decoration: none;
+}
+
+
+li
+{
+	border: 5px solid #926239;
+	display:inline-block;
+	width: 300px;
+	background-color:#926239;
+	color: white;
+	text-align: center;
+}
+
+p{
+	word-spacing: 10px;
+	line-height: 25pt;
+	font-size: 20pt;
+	text-align: justify;
+ }
+ #safia{
+	 text-align: center;
+	 color: #926239;
+	 border-top: solid  5px;
+	 
+	
+ }
+ .defile{
+	 max-width: 1366px;
+	 overflow:hidden;
+	 border-bottom: #926239 solid 5px;
+	 border-top: #926239 solid 5px;
+ }
+.mannequin {
+	display:flex;
+	animation-duration: 20s;
+	animation-name: defile;
+	animation-iteration-count: infinite;
+}
+.mannequin img:hover{
+	transform:scale(1.1);
+	transition:transform 0.8s;
+}
+a{
+	color: #926239
+}
+@keyframes defile {
+	0%{
+		transform: translateX(0px);
+	}
+	50%{
+		transform: translateX(-1200px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
+	
+}
